@@ -1,0 +1,20 @@
+ formula for calculating the flight cost based on the given requirements:
+
+For flights less than 500 miles:
+
+Flat rate cost: $100
+For flights between 500 and 1000 miles:
+
+If departing within 7 days: cost = distance * 0.10
+If departing within 30 days: cost = distance * 0.08
+If departing within 90 days: cost = distance * 0.06
+For flights over 1000 miles:
+
+If departing within 7 days: cost = distance * 0.30
+If departing within 30 days: cost = distance * 0.25
+If departing within 90 days: cost = distance * 0.20
+For service class:
+
+Economy class: no additional cost
+Business class: double the cost
+First class: triple the cost

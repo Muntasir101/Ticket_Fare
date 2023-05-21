@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flight Cost Calculator</title>
+</head>
+<body>
+    <h1>Flight Cost Calculator</h1>
+    <form action="/calculate" method="POST">
+        <label for="distance">Distance (in miles):</label>
+        <input type="number" id="distance" name="distance" required><br><br>
+
+        <label for="departure_date">Departure Date (in days):</label>
+        <input type="number" id="departure_date" name="departure_date" required><br><br>
+
+        <label for="service_class">Service Class:</label>
+        <select id="service_class" name="service_class" required>
+            <option value="Economy">Economy</option>
+            <option value="Business">Business</option>
+            <option value="First">First</option>
+        </select><br><br>
+
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>

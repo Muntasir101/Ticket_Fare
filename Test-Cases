@@ -1,0 +1,196 @@
+Test Case 1:
+
+Distance: 499 miles
+Departure Date: 6 days
+Service Class: Economy
+Expected Output:
+
+Since the distance is less than 500 miles, the flat rate of $100 applies.
+No additional cost for the service class.
+Total cost: $100
+Test Case 2:
+
+Distance: 500 miles
+Departure Date: 7 days
+Service Class: Business
+Expected Output:
+
+The distance is between 500 and 1000 miles.
+Departing within 7 days, the cost per mile is $0.10.
+The service class is Business, which doubles the cost.
+Total cost: $500 * 0.10 * 2 = $100
+Test Case 3:
+
+Distance: 501 miles
+Departure Date: 8 days
+Service Class: First
+Expected Output:
+
+The distance is between 500 and 1000 miles.
+Departing within 8 days, the cost per mile is $0.10.
+The service class is First, which triples the cost.
+Total cost: $501 * 0.10 * 3 = $150.30
+Test Case 4:
+
+Distance: 999 miles
+Departure Date: 29 days
+Service Class: Economy
+Expected Output:
+
+The distance is between 500 and 1000 miles.
+Departing within 29 days, the cost per mile is $0.08.
+No additional cost for the service class.
+Total cost: $999 * 0.08 = $79.92
+Test Case 5:
+
+Distance: 1000 miles
+Departure Date: 30 days
+Service Class: Business
+Expected Output:
+
+The distance is between 500 and 1000 miles.
+Departing within 30 days, the cost per mile is $0.08.
+The service class is Business, which doubles the cost.
+Total cost: $1000 * 0.08 * 2 = $160
+Test Case 6:
+
+Distance: 1001 miles
+Departure Date: 31 days
+Service Class: First
+Expected Output:
+
+The distance is over 1000 miles.
+Departing within 31 days, the cost per mile is $0.25.
+The service class is First, which triples the cost.
+Total cost: $1001 * 0.25 * 3 = $750.75
+
+Test Case 7:
+
+Distance: 200 miles
+Departure Date: 90 days
+Service Class: Economy
+Expected Output:
+
+The distance is less than 500 miles, so the flat rate of $100 applies.
+No additional cost for the service class.
+Total cost: $100
+Test Case 8:
+
+Distance: 750 miles
+Departure Date: 5 days
+Service Class: Business
+Expected Output:
+
+The distance is between 500 and 1000 miles.
+Departing within 7 days, the cost per mile is $0.10.
+The service class is Business, which doubles the cost.
+Total cost: $750 * 0.10 * 2 = $150
+Test Case 9:
+
+Distance: 1200 miles
+Departure Date: 20 days
+Service Class: First
+Expected Output:
+
+The distance is over 1000 miles.
+Departing within 30 days, the cost per mile is $0.25.
+The service class is First, which triples the cost.
+Total cost: $1200 * 0.25 * 3 = $900
+Test Case 10:
+
+Distance: 250 miles
+Departure Date: 15 days
+Service Class: Economy
+Expected Output:
+
+The distance is less than 500 miles, so the flat rate of $100 applies.
+No additional cost for the service class.
+Total cost: $100
+Test Case 11:
+
+Distance: 800 miles
+Departure Date: 40 days
+Service Class: Business
+Expected Output:
+
+The distance is between 500 and 1000 miles.
+Departing within 90 days, the cost per mile is $0.06.
+The service class is Business, which doubles the cost.
+Total cost: $800 * 0.06 * 2 = $96
+Test Case 12:
+
+Distance: 1500 miles
+Departure Date: 5 days
+Service Class: First
+Expected Output:
+
+The distance is over 1000 miles.
+Departing within 7 days, the cost per mile is $0.30.
+The service class is First, which triples the cost.
+Total cost: $1500 * 0.30 * 3 = $1350
+
+Test Case 13:
+
+Distance: 350 miles
+Departure Date: 3 days
+Service Class: Economy
+Expected Output:
+
+The distance is less than 500 miles, so the flat rate of $100 applies.
+No additional cost for the service class.
+Total cost: $100
+Test Case 14:
+
+Distance: 900 miles
+Departure Date: 25 days
+Service Class: Business
+Expected Output:
+
+The distance is between 500 and 1000 miles.
+Departing within 30 days, the cost per mile is $0.25.
+The service class is Business, which doubles the cost.
+Total cost: $900 * 0.25 * 2 = $450
+Test Case 15:
+
+Distance: 1800 miles
+Departure Date: 80 days
+Service Class: First
+Expected Output:
+
+The distance is over 1000 miles.
+Departing within 90 days, the cost per mile is $0.20.
+The service class is First, which triples the cost.
+Total cost: $1800 * 0.20 * 3 = $1080
+Test Case 16:
+
+Distance: 550 miles
+Departure Date: 15 days
+Service Class: Economy
+Expected Output:
+
+The distance is between 500 and 1000 miles.
+Departing within 30 days, the cost per mile is $0.08.
+No additional cost for the service class.
+Total cost: $550 * 0.08 = $44
+Test Case 17:
+
+Distance: 1100 miles
+Departure Date: 40 days
+Service Class: Business
+Expected Output:
+
+The distance is over 1000 miles.
+Departing within 90 days, the cost per mile is $0.20.
+The service class is Business, which doubles the cost.
+Total cost: $1100 * 0.20 * 2 = $440
+Test Case 18:
+
+Distance: 2000 miles
+Departure Date: 10 days
+Service Class: First
+Expected Output:
+
+The distance is over 1000 miles.
+Departing within 7 days, the cost per mile is $0.30.
+The service class is First, which triples the cost.
+Total cost: $2000 * 0.30 * 3 = $1800

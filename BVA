@@ -1,0 +1,96 @@
+boundary value analysis to each input parameter:
+
+Distance:
+Test case 1: Distance = 499 (just below the lower boundary of 500)
+Test case 2: Distance = 500 (at the lower boundary)
+Test case 3: Distance = 1000 (at the upper boundary of the 500-1000 range)
+Test case 4: Distance = 1001 (just above the upper boundary)
+
+Departure Date:
+Test case 1: Departure Date = 6 (within 7 days)
+Test case 2: Departure Date = 7 (at the lower boundary)
+Test case 3: Departure Date = 30 (at the upper boundary of the 7-30 range)
+Test case 4: Departure Date = 31 (just above the upper boundary)
+
+Service Class:
+Test case 1: Service Class = "Economy" (no additional cost)
+Test case 2: Service Class = "Business" (double the cost)
+Test case 3: Service Class = "First" (triple the cost)
+
+
+Total test case:
+In this scenario, we have three input parameters: Distance, Departure Date, and Service Class.
+
+Distance:
+
+Lower Boundary: 500
+Lower Boundary - 1: 499
+Upper Boundary: 1000
+Upper Boundary + 1: 1001
+Total boundary values for Distance = 4
+Departure Date:
+
+Lower Boundary: 7
+Lower Boundary - 1: 6
+Upper Boundary: 30
+Upper Boundary + 1: 31
+Total boundary values for Departure Date = 4
+Service Class:
+
+Economy
+Business
+First
+Total boundary values for Service Class = 3
+To calculate the total number of test cases, we multiply the number of boundary values for each parameter:
+Total test cases = 4 (Distance) * 4 (Departure Date) * 3 (Service Class) = 48
+
+Here are the 48 test cases generated based on Boundary Value Analysis (BVA):
+1.	Distance = 499, Departure Date = 6, Service Class = Economy
+2.	Distance = 499, Departure Date = 6, Service Class = Business
+3.	Distance = 499, Departure Date = 6, Service Class = First
+4.	Distance = 499, Departure Date = 7, Service Class = Economy
+5.	Distance = 499, Departure Date = 7, Service Class = Business
+6.	Distance = 499, Departure Date = 7, Service Class = First
+7.	Distance = 499, Departure Date = 8, Service Class = Economy
+8.	Distance = 499, Departure Date = 8, Service Class = Business
+9.	Distance = 499, Departure Date = 8, Service Class = First
+10.	Distance = 500, Departure Date = 6, Service Class = Economy
+11.	Distance = 500, Departure Date = 6, Service Class = Business
+12.	Distance = 500, Departure Date = 6, Service Class = First
+13.	Distance = 500, Departure Date = 7, Service Class = Economy
+14.	Distance = 500, Departure Date = 7, Service Class = Business
+15.	Distance = 500, Departure Date = 7, Service Class = First
+16.	Distance = 500, Departure Date = 8, Service Class = Economy
+17.	Distance = 500, Departure Date = 8, Service Class = Business
+18.	Distance = 500, Departure Date = 8, Service Class = First
+19.	Distance = 501, Departure Date = 6, Service Class = Economy
+20.	Distance = 501, Departure Date = 6, Service Class = Business
+21.	Distance = 501, Departure Date = 6, Service Class = First
+22.	Distance = 501, Departure Date = 7, Service Class = Economy
+23.	Distance = 501, Departure Date = 7, Service Class = Business
+24.	Distance = 501, Departure Date = 7, Service Class = First
+25.	Distance = 501, Departure Date = 8, Service Class = Economy
+26.	Distance = 501, Departure Date = 8, Service Class = Business
+27.	Distance = 501, Departure Date = 8, Service Class = First
+28.	Distance = 999, Departure Date = 6, Service Class = Economy
+29.	Distance = 999, Departure Date = 6, Service Class = Business
+30.	Distance = 999, Departure Date = 6, Service Class = First
+31.	Distance = 999, Departure Date = 7, Service Class = Economy
+32.	Distance = 999, Departure Date = 7, Service Class = Business
+33.	Distance = 999, Departure Date = 7, Service Class = First
+34.	Distance = 999, Departure Date = 8, Service Class = Economy
+35.	Distance = 999, Departure Date = 8, Service Class = Business
+36.	Distance = 999, Departure Date = 8, Service Class = First
+37.	Distance = 1000, Departure Date = 6, Service Class = Economy
+38.	Distance = 1000, Departure Date = 6, Service Class = Business
+39.	Distance = 1000, Departure Date = 6, Service Class = First
+40.	Distance = 1000, Departure Date = 7, Service Class = Economy
+41.	Distance = 1000, Departure Date = 7, Service Class = Business
+42.	Distance = 1000, Departure Date = 7, Service Class = First
+43.	Distance = 1000, Departure Date = 8, Service Class = Economy
+44.	Distance = 1000, Departure Date = 8, Service Class = Business
+45.	Distance = 1000, Departure Date = 8, Service Class = First
+46.	Distance = 1001, Departure Date = 6, Service Class = Economy
+47.	Distance = 1001, Departure Date = 6, Service Class = Business
+48.	Distance = 1001, Departure Date = 6, Service Class = First
+
