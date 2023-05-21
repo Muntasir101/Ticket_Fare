@@ -1,0 +1,27 @@
+ formula for calculating the flight cost:
+
+For flights less than 500 miles:
+
+Flat rate: $100
+For flights between 500 and 1000 miles:
+
+If departing within 7 days: cost = distance * 0.10
+If departing within 30 days: cost = distance * 0.08
+If departing within 90 days: cost = distance * 0.06
+For flights over 1000 miles:
+
+If departing within 7 days: cost = distance * 0.30
+If departing within 30 days: cost = distance * 0.25
+If departing within 90 days: cost = distance * 0.20
+Extra baggage cost:
+
+For flights less than 500 miles: no extra baggage cost
+For flights between 500 and 1000 miles: baggage_cost = extra_baggage * $25
+For flights over 1000 miles: baggage_cost = extra_baggage * $50
+Service class cost:
+
+Business class: cost *= 2
+First class: cost *= 3
+Total cost:
+
+total_cost = cost + baggage_cost

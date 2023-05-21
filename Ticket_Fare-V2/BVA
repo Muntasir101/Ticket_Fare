@@ -1,0 +1,71 @@
+apply boundary value analysis to each input parameter:
+
+Distance:
+
+Lower Boundary: 499 (just below 500)
+On Boundary: 500
+Upper Boundary: 1000 (just below 1001)
+
+
+Departure Date:
+
+Lower Boundary: 6 (within 7 days)
+On Boundary: 7
+Upper Boundary: 90 (just below 91)
+Extra Baggage:
+
+Lower Boundary: 0
+On Boundary: Any valid positive integer value
+Upper Boundary: Any large positive integer value
+
+
+Service Class:
+
+Lower Boundary: "Economy"
+On Boundary: "Business"
+Upper Boundary: "First"
+
+
+Total test case:
+In this scenario, we have three input parameters: Distance, Departure Date, and Service Class.
+
+Distance:
+
+Lower Boundary: 500
+Lower Boundary - 1: 499
+Upper Boundary: 1000
+Upper Boundary + 1: 1001
+Total boundary values for Distance = 4
+
+Departure Date:
+
+Lower Boundary: 7
+Lower Boundary - 1: 6
+Upper Boundary: 30
+Upper Boundary + 1: 31
+Total boundary values for Departure Date = 4
+
+
+Service Class:
+Economy
+Business
+First
+
+Total boundary values for Service Class = 3
+
+To calculate the total number of test cases based on the boundary values,
+we multiply the number of boundary values for each parameter. In this case, we have:
+
+Distance: 4 test cases (4 boundary values)
+Departure Date: 4 test cases (4 boundary values)
+Extra Baggage: 4 test cases (3 boundary values + 1 additional case for 0 baggage)
+Service Class: 3 test cases (3 boundary values)
+Therefore, the total number of test cases would be:
+
+4 (Distance) * 4 (Departure Date) * 4 (Extra Baggage) * 3 (Service Class) = 192 test cases
+
+Here are the 192 test cases generated based on Boundary Value Analysis (BVA):
+1.	Distance = 499, Departure Date = 6, Service Class = Economy, Baggage = 1
+2.	Distance = 499, Departure Date = 6, Service Class = Business, Baggage = 1
+3.	Distance = 499, Departure Date = 6, Service Class = First, Baggage = 1
+

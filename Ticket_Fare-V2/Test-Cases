@@ -1,0 +1,29 @@
+Here's a set of test cases based on the formulas and boundary value analysis for each input parameter:
+
+Test Cases for Distance:
+
+Test Case 1: Distance = 499 (just below the lower boundary)
+Test Case 2: Distance = 500 (on the lower boundary)
+Test Case 3: Distance = 501 (just above the lower boundary)
+Test Case 4: Distance = 999 (just below the upper boundary)
+Test Case 5: Distance = 1000 (on the upper boundary)
+Test Case 6: Distance = 1001 (just above the upper boundary)
+Test Cases for Departure Date:
+
+Test Case 7: Departure Date = 6 (just below the lower boundary)
+Test Case 8: Departure Date = 7 (on the lower boundary)
+Test Case 9: Departure Date = 8 (just above the lower boundary)
+Test Case 10: Departure Date = 89 (just below the upper boundary)
+Test Case 11: Departure Date = 90 (on the upper boundary)
+Test Case 12: Departure Date = 91 (just above the upper boundary)
+Test Cases for Extra Baggage:
+
+Test Case 13: Extra Baggage = 0 (no extra baggage)
+Test Case 14: Extra Baggage = 1 (minimum valid value)
+Test Case 15: Extra Baggage = 5 (any valid positive integer)
+Test Case 16: Extra Baggage = 100 (large value)
+Test Cases for Service Class:
+
+Test Case 17: Service Class = "Economy"
+Test Case 18: Service Class = "Business"
+Test Case 19: Service Class = "First"
